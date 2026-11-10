@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# env & secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+backend/.env
+
+# builds
+frontend/dist/
+dist/
+build/
+
+# editors/os
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# logs
+*.log
+npm-debug.log*
+
+# supabase local
+supabase/.temp/
+supabase/.branches/
